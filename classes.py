@@ -12,7 +12,7 @@ class Pizza:
 
     def pizza_made(self):
         space = " and "
-        print(f'I would like a {self.size}-inch, {self.crust} pizza with {space.join(self.toppings)}.')
+        print(f'I would like a {self.size}-inch, {self.crust} crust pizza with {space.join(self.toppings)}.')
 
 thick_crust_pizza = Pizza()
 
